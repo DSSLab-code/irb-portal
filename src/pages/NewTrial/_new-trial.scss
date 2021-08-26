@@ -1,0 +1,116 @@
+@import "../../_variables.scss";
+
+.new-trial {
+  &__outer-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: $gray-10;
+  }
+  &__inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    Button {
+      margin: $space-03;
+    }
+  }
+  &__to-dash {
+    Button {
+      background-color: $gray-20 !important;
+      color: black;
+    }
+    :hover {
+      color: $gray;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    .tile {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      width: 100%;
+      border-color: transparent;
+      background-color: white;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  &__basic-info {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-left: $space-03;
+    .text-input__outer-wrapper {
+      margin-top: $space-03;
+      margin-bottom: $space-03;
+    }
+    h3,
+    h4 {
+      color: black;
+      margin-bottom: 0;
+    }
+    .select {
+      margin: 0 0 $space-03 0;
+    }
+    .file-upload {
+      color: black;
+      margin: $space-03 0 $space-06 0;
+    }
+  }
+
+  &__dates {
+    display: flex;
+    .text-input__outer-wrapper {
+      width: 45%;
+    }
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__add {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    align-items: center;
+    margin-left: $space-10;
+    a {
+      margin-left: $space-03;
+    }
+  }
+  &__secondary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__save-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    Button {
+      align-self: center;
+      span {
+        text-align: center;
+        width: 100%;
+      }
+      width: 100%;
+    }
+  }
+}

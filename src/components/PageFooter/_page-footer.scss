@@ -1,0 +1,39 @@
+.page-footer {
+    margin-top: $space-03;
+  
+    h6 {
+      display: inline-block;
+      color: $blue;
+      margin-top: 0;
+      margin-left: $space-05;
+      margin-bottom: 0;
+    }
+  
+    &__nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+      }
+  
+      &-item {
+        display: inline-block;
+        a {
+          display: inline-block;
+          padding: $space-03 $space-05;
+        }
+      }
+  
+      @media #{$phablet-up} {
+        ul {
+          flex-direction: row;
+        }
+      }
+    }
+  
+    @media #{$tablet-up} {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }

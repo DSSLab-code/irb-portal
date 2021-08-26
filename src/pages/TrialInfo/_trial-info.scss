@@ -1,0 +1,182 @@
+@import "../../_variables.scss";
+
+.trial-info {
+  &__outer-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: $gray-10;
+  }
+  &__inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+  }
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    Button {
+      margin: $space-03;
+    }
+  }
+  &__to-dash {
+    Button {
+      background-color: $gray-20 !important;
+      color: black;
+    }
+    :hover {
+      color: $gray;
+    }
+  }
+  &__no-participants-text{
+    padding-left: $space-03;
+    margin-top: 0;
+  }
+  &__content {
+    .tile {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      width: 100%;
+      border-color: transparent;
+      background-color: white;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  &__tabs {
+    text-align: left;
+    width: 100%;
+  }
+  &__basic-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    h3 {
+      text-align: left;
+      color: black;
+      margin-left: $space-03;
+    }
+  }
+
+  &__basic-info-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__basic-info-tile {
+    .tile {
+      display: flex;
+      flex-direction: column;
+      background-color: $gray-20;
+      border-radius: $radius;
+    }
+  }
+
+  &__documents {
+    padding-left: $space-10;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    text-align: left;
+  }
+
+  &__data-element {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    margin-bottom: $space-15;
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .tag {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: $space-04;
+      font-size: $text-02;
+      padding: $space-03 $space-15 * 2 $space-03 $space-15 * 2;
+    }
+  }
+  &__data {
+    color: black;
+  }
+  &__consent-download-button{
+    Button:hover{
+      color:white;
+      background-color: $blue;
+    }
+    Button{
+      background-color: $blue-20;
+      color: $blue;
+
+    }
+  }
+  &__data-col1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: $space-10;
+    padding-top: $space-03;
+    padding-bottom: 0;
+  }
+
+  &__data-col2 {
+    margin-right: $space-15;
+    display: flex;
+    flex-direction: column;
+    padding-left: $space-10;
+    padding-top: $space-03;
+    padding-bottom: 0;
+  }
+  &__data-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__consent-list-title {
+    display: flex;
+    flex-direction: row !important;
+    div {
+      align-self: center;
+    }
+  }
+
+  &__data-table {
+    display: flex;
+    color: black;
+    width: 100%;
+  }
+
+  &__modal-dropdown-wrapper{
+      
+      padding: $space-05;
+      z-index: 5;
+  }
+
+  &__edit-modal-content {
+    color: black;
+    text-align: left;
+    h5 {
+      margin: $space-03 0 0 $space-06;
+    }
+  }
+
+  &__edit-modal-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    Button {
+      margin: 0 $space-05 $space-03 $space-05;
+    }
+  }
+}

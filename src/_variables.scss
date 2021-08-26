@@ -1,0 +1,144 @@
+$phone: 37.438em; // 599px
+$phablet: 37.5em; //600px
+$tablet: 56.25em; // 900px
+$laptop: 75em; // 1200px
+$desktop: 90em; // 1440px
+
+$landscape: '(orientation: landscape)';
+
+$phone-only: '(max-width: #{$phone})';
+$phablet-only: '(min-width: #{$phablet}) and (max-width: #{$tablet})';
+$tablet-only: '(min-width: #{$tablet}) and (max-width: #{$laptop})';
+$laptop-only: '(min-width: #{$laptop}) and (max-width: #{$desktop})';
+
+$up-to-phablet: '(max-width: #{$phablet})';
+$up-to-tablet: '(max-width: #{$tablet})';
+$up-to-laptop: '(max-width: #{$laptop})';
+$up-to-desktop: '(max-width: #{$desktop})';
+
+$phablet-up: '(min-width: #{$phablet})';
+$tablet-up: '(min-width: #{$tablet})';
+$laptop-up: '(min-width: #{$laptop})';
+$desktop-up: '(min-width: #{$desktop})';
+
+/*
+ *  Font Sizes
+ */
+$text-06: 3.375em;
+$text-05: 2.625em;
+$text-04: 2em;
+$text-03: 1.75em;
+$text-02: 1.25em;
+$text-01: 1em;
+$text-00: 0.875em;
+
+/*
+ *  SPACING
+ */
+$space-15: 4rem;
+$space-14: 3.75rem;
+$space-13: 3.5rem;
+$space-12: 3.25rem;
+$space-11: 3rem;
+$space-10: 2.75rem;
+$space-09: 2.5rem;
+$space-08: 2.25rem;
+$space-07: 2rem;
+$space-06: 1.75rem;
+$space-05: 1.5rem;
+$space-04: 1.25rem;
+$space-03: 1rem;
+$space-02: 0.75rem;
+$space-01: 0.5rem;
+$space-00: 0.25rem;
+
+/*
+ *  COLORS
+ */
+
+$black: #171717;
+$white: #ffffff;
+$gray: #8f92a1;
+$light-gray: #f3f6f8;
+$blue: #0052cc;
+$yellow: #ff991f;
+$purple: #5243aa;
+$green: #00875a;
+$red: #de350b;
+
+// Black
+$black-100: $black;
+$black-80: rgba($black, 0.8);
+$black-60: rgba($black, 0.6);
+$black-40: rgba($black, 0.4);
+$black-20: rgba($black, 0.2);
+$black-10: rgba($black, 0.1);
+$black-05: rgba($black, 0.05);
+
+// Gray
+$gray-100: $gray;
+$gray-80: rgba($gray, 0.8);
+$gray-60: rgba($gray, 0.6);
+$gray-40: rgba($gray, 0.4);
+$gray-20: rgba($gray, 0.2);
+$gray-10: rgba($gray, 0.1);
+$gray-05: rgba($gray, 0.05);
+
+// Gray
+$light-gray-100: $light-gray;
+$light-gray-80: rgba($light-gray, 0.8);
+$light-gray-60: rgba($light-gray, 0.6);
+$light-gray-40: rgba($light-gray, 0.4);
+$light-gray-20: rgba($light-gray, 0.2);
+$light-gray-10: rgba($light-gray, 0.1);
+$light-gray-05: rgba($light-gray, 0.05);
+
+// Blue
+$blue-100: $blue;
+$blue-80: rgba($blue, 0.8);
+$blue-60: rgba($blue, 0.6);
+$blue-40: rgba($blue, 0.4);
+$blue-20: rgba($blue, 0.2);
+$blue-10: rgba($blue, 0.1);
+$blue-05: rgba($blue, 0.05);
+
+// Yellow
+$yellow-100: $yellow;
+$yellow-80: rgba($yellow, 0.8);
+$yellow-60: rgba($yellow, 0.6);
+$yellow-40: rgba($yellow, 0.4);
+$yellow-20: rgba($yellow, 0.2);
+$yellow-10: rgba($yellow, 0.1);
+$yellow-05: rgba($yellow, 0.05);
+
+// Purple
+$purple-100: $purple;
+$purple-80: rgba($purple, 0.8);
+$purple-60: rgba($purple, 0.6);
+$purple-40: rgba($purple, 0.4);
+$purple-20: rgba($purple, 0.2);
+$purple-10: rgba($purple, 0.1);
+$purple-05: rgba($purple, 0.05);
+
+// Green
+$green-100: $green;
+$green-80: rgba($green, 0.8);
+$green-60: rgba($green, 0.6);
+$green-40: rgba($green, 0.4);
+$green-20: rgba($green, 0.2);
+$green-10: rgba($green, 0.1);
+$green-05: rgba($green, 0.05);
+
+// Red
+$red-100: $red;
+$red-80: rgba($red, 0.8);
+$red-60: rgba($red, 0.6);
+$red-40: rgba($red, 0.4);
+$red-20: rgba($red, 0.2);
+$red-10: rgba($red, 0.1);
+$red-05: rgba($red, 0.05);
+
+/*
+ *  UI
+ */
+$radius: 16px;

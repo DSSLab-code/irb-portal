@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "irbportala79007c0": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s3040b1d13": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
